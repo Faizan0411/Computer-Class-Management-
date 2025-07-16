@@ -1,0 +1,93 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title >Home Page</title>
+<link href = "style.css" rel ="Stylesheet" type ="text/css" />
+  
+  
+    <asp:ContentPlaceHolder id="head" runat="server">
+    
+    </asp:ContentPlaceHolder>
+    
+    
+</head>
+<body>
+
+    <form id="form1" runat="server">
+    <div>
+    <div class="wrapper">
+    
+
+<div class="banner">
+  <div class="bannerontop" 
+        
+       <br style="font-size: x-large; font-family: Elephant; background-color: #CCFFFF" /> CREATIVE COMPUTER CLASSES<br/> 
+    </div>
+   <div class ="navbg1 "> </div>
+   <div class="navbg">
+  <div id="navcontainer">
+<ul id="navlist">
+<li><a href="Home.aspx">Home</a></li>
+<li><a href="Inquiry.aspx">Inquiry</a></li>
+<li><a href="Login.aspx ">Login</a></li>
+<li><a href="Login.aspx">Online Exam </a></li>
+<li><a href="Login.aspx">Result</a></li>
+<li></li>
+</ul>
+</div>
+</div>
+  <div class="content">
+ 
+  
+    <div class="leftcolumn">
+      <h2>Information</h2>
+	  <div class="navvy">
+<ul class="navvylist">
+<li><asp:LinkButton ID="ALinkButton" runat="server" onclick="ALinkButton_Click">About Institute</asp:LinkButton></li>
+<li><asp:LinkButton ID="CLinkButton" runat="server" onclick="CLinkButton_Click">Courses</asp:LinkButton></li>
+
+<li><asp:LinkButton ID="FLinkButton" runat="server" onclick="FLinkButton_Click">Faculty</asp:LinkButton> </li>
+<li><asp:LinkButton ID="AILinkButton" runat="server" onclick="AILinkButton_Click">Admission Information</asp:LinkButton></li>
+</ul>
+</div>
+<h2> &nbsp;</h2>
+
+      
+<div class="navvy">
+<ul class="navvylist ">
+<li>
+  <asp:Panel ID="Panel1" runat="server" Height="119px" Width="247px" >
+  <br />
+<br />
+<br />
+<br />
+<br />
+            
+ 
+        </asp:Panel></li>
+      </ul>
+</div>
+    </div>
+	<div class="rightcolumn">
+	  <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+       </asp:ContentPlaceHolder>
+	  <div class="maincontevt">
+	      <p>&nbsp;</p>
+	    </div>
+	  </div>
+  </div>
+  
+<div class="footer">
+     
+</div>
+</div>
+       
+    </div>
+    </form>
+</body>
+</html>

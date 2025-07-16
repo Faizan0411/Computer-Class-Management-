@@ -1,0 +1,90 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MPAdmin.master.cs" Inherits="MPAdmin" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Admin Page</title>
+     <link href="style.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    <title >acxc</title>
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+       <div class="wrapper">
+    
+
+<div class="banner">
+  <div class="bannerontop" style="font-size: x-large; background-color: #CCFFFF; font-family: Elephant;"> CREATIVE COMPUTER CLASSES</div>
+   <div class ="navbg1 "> </div>
+   <div class="navbg">
+  <div id="navcontainer">
+<ul id="navlist">
+<li><a href="Home.aspx" >Home</a></li>
+<li><a href="ChngPwd.aspx">Change Password</a><a href="UploadBook.aspx" > </a></li>
+
+</ul>
+</div>
+</div>
+  <div class="content">
+  
+    <div class="leftcolumn">
+      <h2>Modify Information</h2>
+	  <div class="navvy">
+<ul class="navvylist">
+  <li>
+      <asp:LinkButton ID="LinkButton2" runat="server" onclick="LinkButton2_Click">Inquiry </asp:LinkButton></li>
+  <li><asp:LinkButton ID="LinkButton3" runat="server" onclick="LinkButton3_Click">Courses </asp:LinkButton></li>
+  <li><asp:LinkButton ID="LinkButton4" runat="server" onclick="LinkButton4_Click">Faculty </asp:LinkButton></li>
+ <li><asp:LinkButton ID="LinkButton5" runat="server" onclick="LinkButton5_Click">Student </asp:LinkButton></li>
+  <li><asp:LinkButton ID="LinkButton6" runat="server" onclick="LinkButton6_Click">Batches</asp:LinkButton></li>  
+  <li><asp:LinkButton ID="LinkButton7" runat="server" onclick="LinkButton7_Click">Exam </asp:LinkButton></li>  
+</ul>
+          <p>
+              &nbsp;</p>
+</div>
+<div class="navvy">
+<ul class="navvylist">
+<li>
+  <asp:Panel ID="Panel1" runat="server" Height="119px" Width="247px" >
+  <br />
+<br />
+<br />
+<br />
+<br />
+            
+ 
+        </asp:Panel></li> 
+</ul>
+</div>
+    </div>
+	<div class="rightcolumn">
+	<p>
+        <asp:Label ID="Label1" runat="server" Font-Bold="True" Font-Size="14pt" 
+            Text="Administrator Page" ForeColor="#3399FF"></asp:Label>
+          &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:LinkButton ID="LinkButton1" runat="server" onclick="LinkButton1_Click">Sign 
+        Out</asp:LinkButton>
+    </p>
+	  <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+          <p>
+          </p>
+        
+       </asp:ContentPlaceHolder>
+	  <div class="maincontevt">
+	      <p>&nbsp;</p>
+	    </div>
+	  </div>
+  </div>
+
+</div>
+</div>
+
+    
+    </div>
+    </form>
+</body>
+</html>

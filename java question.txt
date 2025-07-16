@@ -1,0 +1,179 @@
+Java Quiz
+There are 23 questions in this quiz. Good luck! 
+Passing grade is 70% = C. 
+ 
+1) What is the size of a Char? 
+       a)  4 bits  
+       b)  7 bits  
+       c)  8 bits  
+       d)  16 bits  
+
+
+--------------------------------------------------------------------------------
+ 
+2) A class cannot be declared: 
+       a)  Static  
+       b)  Private  
+       c)  Default  
+
+
+--------------------------------------------------------------------------------
+ 
+3) Following code will result in: int a = 3.5; 
+       a)  Compilation error  
+       b)  Runtime error  
+       c)  a being 3.5  
+       d)  a being 3.  
+
+
+--------------------------------------------------------------------------------
+ 
+4) Following code will result in: int a1 = 5; double a2 = (float)a1; 
+       a)  Compilation error  
+       b)  Runtime error  
+       c)  No errors  
+
+
+--------------------------------------------------------------------------------
+ 
+5) Following code will result in: int a = 9/0; 
+       a)  Compilation error: Divisions must be in a try block.  
+       b)  Compilation error: DivideByZeroException  
+       c)  Runtime Exception  
+       d)  No Error: a is NaN  
+
+
+--------------------------------------------------------------------------------
+ 
+6) Following code will result in: float a = 9/0; 
+       a)  Compilation error: Divisions must be in a try block  
+       b)  Compilation error: DivideByZeroException  
+       c)  Runtime Exception  
+       d)  No Error: a is NaN  
+
+
+--------------------------------------------------------------------------------
+ 
+7) A class can be transient 
+       a)  True  
+       b)  False  
+
+
+--------------------------------------------------------------------------------
+ 
+8) Following code will result in: class A { int b = 1; public static void main(String [] args) { System.out.println("b is " + b); }} 
+       a)  Compilation error  
+       b)  Runtime Error  
+       c)  Runtime Exception  
+       d)  Output of b is 1  
+
+
+--------------------------------------------------------------------------------
+ 
+9) Following code will result in: class A { public static void main(String [] args) {B b = new A(); }} class B extends A {} 
+       a)  Compile error  
+       b)  Runtime Exception  
+       c)  No error  
+
+
+--------------------------------------------------------------------------------
+ 
+10) Following code will result in: class A { public static void main(String [] args) {A a = new B(); }} class B extends A {} 
+       a)  Compiler error  
+       b)  Runtime Exception  
+       c)  No errors  
+
+
+--------------------------------------------------------------------------------
+ 
+11) Methods that are marked protected can be called in any subclass of that class. 
+       a)  True  
+       b)  False  
+
+
+--------------------------------------------------------------------------------
+ 
+12) An abstract class can have non-abstract methods. 
+       a)  True  
+       b)  False  
+
+
+--------------------------------------------------------------------------------
+ 
+13) Java keywords are written in lowercase as well as uppercase. 
+       a)  True  
+       b)  False  
+
+
+--------------------------------------------------------------------------------
+ 
+14) What is an instanceof 
+       a)  A methods in object  
+       b)  An operator and keyword  
+
+
+--------------------------------------------------------------------------------
+ 
+15) Primitive datatypes are allocated on a stack. 
+       a)  True  
+       b)  False  
+
+
+--------------------------------------------------------------------------------
+ 
+16) Can you compare a boolean to an integer? 
+       a)  Yes  
+       b)  No  
+
+
+--------------------------------------------------------------------------------
+ 
+17) If class A implements an interface does it need to implement all methods of that interface? 
+       a)  Yes, always.  
+       b)  No, not when A is abstract  
+
+
+--------------------------------------------------------------------------------
+ 
+18) Integer a = new Integer(2); Integer b = new Integer(2); What happens when you do if (a==b)? 
+       a)  Compiler error  
+       b)  Runtime Exception  
+       c)  True  
+       d)  False  
+
+
+--------------------------------------------------------------------------------
+ 
+19) The methods wait(), notify() and notifyAll() in Object need to be called from synchronized pieces of code. 
+       a)  True  
+       b)  False  
+
+
+--------------------------------------------------------------------------------
+ 
+20) Inner classes can be defined within methods. 
+       a)  True  
+       b)  False  
+
+
+--------------------------------------------------------------------------------
+ 
+21) Synchronized is a keyword to tell a Thread to grab an Object lock before continuing execution. 
+       a)  True  
+       b)  False  
+
+
+--------------------------------------------------------------------------------
+ 
+22) The default statement of a switch is always executed. 
+       a)  True  
+       b)  False  
+
+
+--------------------------------------------------------------------------------
+ 
+23) How can you prevent a member variable from becoming serialized? 
+       a)  By marking it private  
+       b)  By marking it volatile  
+       c)  By marking it transient  
+       d)  You can not.  

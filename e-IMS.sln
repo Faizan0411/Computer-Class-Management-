@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "e-IMS", ".", "{88C00B89-9084-470E-846F-D3D1AA5A804C}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFramework = "3.5"
+		Debug.AspNetCompiler.VirtualPath = "/e-IMS"
+		Debug.AspNetCompiler.PhysicalPath = "E:\einstitute\13-3\e-IMS\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\e-IMS\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/e-IMS"
+		Release.AspNetCompiler.PhysicalPath = "E:\einstitute\13-3\e-IMS\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\e-IMS\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "2513"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{88C00B89-9084-470E-846F-D3D1AA5A804C}.Debug|.NET.ActiveCfg = Debug|.NET
+		{88C00B89-9084-470E-846F-D3D1AA5A804C}.Debug|.NET.Build.0 = Debug|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

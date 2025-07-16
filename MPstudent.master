@@ -1,0 +1,74 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MPstudent.master.cs" Inherits="MPstudent" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <title>Student Page</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+         <div class="wrapper">
+    
+
+<div class="banner">
+  <div class="bannerontop" style="font-size: x-large; background-color: #CCFFFF; font-family: Elephant;"> CREATIVE COMPUTER CLASSES<br/><br/><br/><br/>
+    </div>
+   <div class ="navbg1 "> </div>
+   <div class="navbg">
+  <div id="navcontainer">
+<ul id="navlist">
+<li><asp:LinkButton ID="lnkHome" runat="server" onclick="lnkHome_Click">Home</asp:LinkButton></li>
+<li><asp:LinkButton ID="lnkmodify" runat="server" onclick="lnkmodify_Click">Modify Profile</asp:LinkButton></li>
+<li><asp:LinkButton ID="lnkBatch" runat="server" onclick="lnkBatch_Click">Batch Timings</asp:LinkButton></li>
+<li><asp:LinkButton ID="lnkExam" runat="server" onclick="lnkExam_Click">Online Exam</asp:LinkButton></li>
+<li><asp:LinkButton ID="lnkResult" runat="server" onclick="lnkResult_Click" Visible="False">Result</asp:LinkButton></li>
+<li><asp:LinkButton ID="lnkchange_pass" runat="server" onclick="lnkchange_pass_Click">Change Password</asp:LinkButton></li>
+
+</ul>
+</div>
+</div>
+  <div class="content">
+  
+    <div class="leftcolumn">
+      <h2>Information</h2>
+	  <div class="navvy">
+<ul class="navvylist">
+<li><a href="aboutus.aspx">About Institute</a></li>
+<li><a href="#">Courses</a></li>
+<li><a href="#">Faculty </li>
+<li><a href="#">Admission Information</a></li>
+</ul>
+          <p>
+              &nbsp;</p>
+</div>
+    </div>
+	<div class="rightcolumn">
+	<p>
+        <asp:Label ID="Label1" runat="server" Font-Bold="True" Font-Size="12pt" 
+            Text="Welcome,"></asp:Label>
+        <asp:Label ID="lblName" runat="server"></asp:Label>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:LinkButton ID="LinkButton1" runat="server" onclick="LinkButton1_Click">Sign 
+        Out</asp:LinkButton>
+    </p>
+	  <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+       </asp:ContentPlaceHolder>
+	  <div class="maincontevt">
+	      <p>&nbsp;</p>
+	    </div>
+	  </div>
+  </div>
+
+</div>
+</div>
+
+    </div>
+    </form>
+</body>
+</html>
